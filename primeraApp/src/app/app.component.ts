@@ -31,6 +31,10 @@ export class AppComponent {
     }
 
   }
-
+public teclear (e: any): void{
+console.log(e);
+console.log("La tecla que se oprimió fue: " + e.key);
+console.log("La palabra es: " + e.target.value);
+}
 
 }
