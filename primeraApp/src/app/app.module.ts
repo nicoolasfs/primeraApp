@@ -11,6 +11,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatTableModule} from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {MatTableModule} from '@angular/material/table';
     MatIconModule,
     MatDividerModule,
     MatProgressBarModule,
-    MatTableModule
+    MatTableModule,
+    MatInputModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
